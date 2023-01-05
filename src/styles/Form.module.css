@@ -1,0 +1,49 @@
+.form{
+    margin-top: 20px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form .formContainer{
+    width: 40%;
+}
+.form form >*{
+    margin-top: 20px;
+}
+
+.form .name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form .name .firstName, .lastName{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.form .btn{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #e8796e;
+    color: #ffffff;
+    
+}
+
+.form .btn:hover{
+    background-color: #f8594b;
+}
+
+input{
+    padding: 10px 5px;
+    width: 100%;
+    outline: none;
+}
+
+
+
+
